@@ -6,7 +6,7 @@ fn main() {
     let mut file_path = String::new();
 
     if io::stdin().read_line(&mut file_path).is_err() {
-        println("failure");
+        println!("failure");
         return;
     }
 
